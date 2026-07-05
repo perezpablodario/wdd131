@@ -3,9 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WWD 131</title>
+    <meta name="description" content="WDD131 - Dynamic Web Fundamentals, Pablo Dario Perez, My introduction personal page, My LinkedIn, My favorite scripture, my final project">
+    <meta name="author" content="Pablo Dario Perez">
+
+    <title>WWD 131 - Dynamic Web Fundamentals - Pablo Dario Perez</title>
+
+    <link rel="stylesheet" href="styles/base.css">
+
+    <script src="scripts/getdates.js" defer></script>
+    
 </head>
 <body>
-    <H1>WDD 131</H1>
+    <header>
+        <span id="course-title">WDD 131 - Dynamic Web Fundamentals</span>
+        <nav>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/pablo-dario-perez-0b488423a/" target="_blank">LinkedIn</a></li>
+                <li><a href="https://byupw.instructure.com/" target="_blank">I-Learn</a></li>
+                <li><a href="https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/88?lang=eng&id=p118#p118" target="_blank">Scripture</a></li>
+                <li><a href="#">Final Project</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Pablo Dario Perez</h1>
+        <div class="main-grid">
+            <section class="card">
+                <h2>About Me</h2>
+                <div class="card-content-profile">
+                    <p>My name is Pablo. I was born in Salta Capital, a province in northern Argentina that borders Bolivia. I live with my
+                    family, which consists of my wife, Soledad, and my three children: Jaasiel, Elías, and Aarón. Currently, I am working as
+                    the Clerical Leader at the Salta Temple. I am also studying for a Bachelor's degree in Professional Studies. I enjoy
+                    sports, so I try to learn how to play almost all of them. Additionally, I really like everything related to airplanes.</p>
+                    <img src="images/myPicture.jpg" alt="My photo" class="profile-img">
+                </div>
+                <hr>
+                <h3>Salta, Argentina</h3>
+                <div class="country-info">
+                    <img src="images/argentinaFlag.webp" alt="Argentina Official flag" class="flag-img">
+                    <p>Argentina, officially the Argentine Republic, is a sovereign country located in the extreme south and southeast of South
+                    America. It adopts a democratic, federal, representative, and republican form of government. It is constituted as a
+                    decentralized federal country, composed of twenty-three provinces plus the Autonomous City of Buenos Aires, designated
+                    as the federal capital.</p>
+                </div>
+            </section>
+                
+            <section class="card">
+                <h2>Web Dev Resourses</h2>
+                <ul class="resources-list">
+                    <li><a href="https://dev.to" target="_blank">Dev.to Community</a></li>
+                    <li><a href="https://www.smashingmagazine.com" target="_blank">Smashing Magazine</a></li>
+                    <li><a href="https://css-tricks.com" target="_blank">CSS Tricks</a></li>
+                    <li><a href="https://www.w3schools.com" target="_blank">W3Schools</a></li>
+                    <li><a href="https://www.udemy.com" target="_blank">Udemy</a></li>
+                    <li><a href="https://picsum.photos" target="_blank">Lorem Picsum Image Placeholder</a></li>
+                </ul>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy;<span id="currentyear"></span>&#128516; Pablo Dario Perez &#128516; Argentina</p>
+        <p id="lastModified"></p>
+    </footer>
+
 </body>
 </html>
