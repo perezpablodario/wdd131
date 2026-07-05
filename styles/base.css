@@ -5,14 +5,14 @@
 }
 
 body{
-    font-family: Arial, sans-serif;
+    font-family:'Roboto', 'Open Sans', sans-serif;
     background-color:white;
-    color: #333;
+    color: black;
     line-height: 1.6;
 }
 
 header{
-    background-color: rgb(58,58,58);
+    background-color: darkslategray;
     color: white;
     text-align: center;
 }
@@ -50,7 +50,7 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-    background-color: #555;
+    background-color: grey;
     color: orange;
 }
 
@@ -82,7 +82,7 @@ h1{
 }
 
 .card h2{
-    background-color: rgb(58,58,58);
+    background-color: darkslategray;
     color: white;
     padding: 12px;
     font-size: 1.3rem;
@@ -139,16 +139,16 @@ hr{
 }
 
 .resources-list a{
-    color: rgb(58,58,58);
+    color: darkslategray;
     text-decoration: underline;
 }
 
 .resources-list a:hover{
-    color: #000;
+    color: black;
 }
 
 footer{
-    background-color: rgb(58, 58, 58);
+    background-color: darkslategrey;
     color: white;
     text-align: center;
     padding: 20px;
@@ -160,6 +160,6 @@ footer p{
 }
 
 #lastModified{
-    color: #ffeb3b;
+    color: yellow;
     font-size: 0.9rem;
 }
